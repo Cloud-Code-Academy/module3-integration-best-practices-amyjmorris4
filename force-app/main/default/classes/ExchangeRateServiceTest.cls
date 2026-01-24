@@ -53,7 +53,7 @@ private class ExchangeRateServiceTest {
         // Create a wrapper manually
         ExchangeRateWrapper wrapper = new ExchangeRateWrapper();
         wrapper.base_code = 'USD';
-        wrapper.time_last_update_unix = '1740690001';
+        wrapper.time_last_update_unix = 1740690001;
         
         // Add rates
         wrapper.conversion_rates = new Map<String, Decimal>{
